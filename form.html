@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+    </head>
+    <body>
+        <header>
+            <main>
+                <h1 style="text-align: center;">EXAM APPLICATION FORM</h1>
+                <hr>
+                <h3>Student Details</h3>
+                <br>
+                Student Name:
+                <input type="text">
+                <br><br>
+                Roll Number:
+                <input type="number">
+                <br><br>
+                Registration Number:
+                <input type="number">
+                <br><br>
+                Date of Birth:
+                <input type="date">
+                <br><br>
+                <h3>Contact Details</h3>
+                <br>
+                Email:
+                <input type="email">
+                <br><br>
+                Phone Number:
+                <input type="number">
+                <br><br>
+                Address:
+                <input type="text" >
+                <br><br>
+                
+                <h3>Exam Details</h3>
+                <br>
+                Course:
+                <select id="subject" name="subject" >
+                    <option value="selected disabled">Select subject</option>
+                    <option value="BTech">BTech</option>
+                    <option value="B.SC">B.SC</option>
+                    <option value="B.Com">B.com</option>
+                   
+                </select>
+                <br><br>
+                Semester:
+                <select id="semester" name="semester">
+                    <option value="selected disabled">Select semester</option>
+                    <option value="1st sem">1st Semester</option>
+                    <option value="2nd sem">2nd semester</option>
+                    <option value="3rd sem">3rd semester</option>
+                   
+                </select>
+                <br><br>
+                Exam Type:
+                <label for="101">
+                    <input type="radio" value="Regular" name="exam type" id="101">Regular
+                    
+                </label>
+                <label for="102">
+                    <input type="radio" value="Backlog" name="exam type" id="102">Backlog
+                </label>
+                <br><br>
+
+
+                Subjects:
+                <label for="DBMS">
+                    <input type="checkbox" value="DBMS" name="subject" id="101">DBMS
+                </label>
+                <label for="Computer Networks">
+                    <input type="checkbox" value="CN" name="subject" id="102">Computer Networks
+                </label>
+                <label for="CC">
+                    <input type="checkbox" value="CC" name="subject" id="103">Cloude Computing
+                </label>
+                <label for="AI">
+                    <input type="checkbox" value="AI" name="subject" id="104">Artificial Intelligence
+                </label>
+                <br><br>
+                Exam Center:
+                <select  id="ceneter" name="center">
+                    <option value="selected disabled">Select center</option>
+                    <option value="Kolkata">kolkata</option>
+                </select>
+                <br><br>
+                Upload Photograph:
+                <button>Choose file</button> No file choosen
+                <br><Br>
+                <input type="checkbox">I declare thar rhe information provided is correct.
+                <br><br>
+                <button>Submit Application</button>
+                <button>Reset</button>
+                
+            </main>
+        </header>
+        
+
+    </body>
+</html>
